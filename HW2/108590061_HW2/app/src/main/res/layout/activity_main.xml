@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.constraint.ConstraintLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.helloconstraint.MainActivity">
+
+    <Button
+        android:id="@+id/button_toast"
+        android:layout_width="95dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="17dp"
+        android:background="@color/colorPrimary"
+        android:onClick="showToast"
+        android:text="@string/button_label_toast"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/zerobutton"
+        android:layout_width="95dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="22dp"
+        android:background="#717070"
+        android:onClick="Resettozero"
+        android:text="@string/zero"
+        android:textColor="@android:color/background_light"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/button_count"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_toast"
+        app:layout_constraintVertical_bias="0.312" />
+
+    <Button
+        android:id="@+id/button_count"
+        android:layout_width="95dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginLeft="18dp"
+        android:background="@color/colorPrimary"
+        android:onClick="increasecount"
+        android:text="@string/button_label_count"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/show_count"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/show_count"
+        android:layout_width="275dp"
+        android:layout_height="305dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="15dp"
+        android:background="#FFFF00"
+        android:gravity="center_vertical"
+        android:text="@string/count_initial_value"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="160sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.851"
+        app:layout_constraintStart_toEndOf="@+id/button_count"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</android.support.constraint.ConstraintLayout>
