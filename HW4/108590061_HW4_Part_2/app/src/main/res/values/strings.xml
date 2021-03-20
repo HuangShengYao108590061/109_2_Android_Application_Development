@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">108590061_HW4_Part_2</string>
+    <string name="edittext_uri">http://developer.android.com</string>
+    <string name="edittext_loc">Golden Gate Bridge</string>
+    <string name="edittext_share">\'Twas brillig and the slithy toves</string>
+    <string name="button_uri">Open Website</string>
+    <string name="button_loc">Open Location</string>
+    <string name="button_share">Share This Text</string>
+    <string name="takepics">Take a picture</string>
+
+</resources>
