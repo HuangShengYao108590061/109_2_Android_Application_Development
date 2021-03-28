@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="land_text_size" parent="@style/Base.TextAppearance.AppCompat.Title">
+        <item name="android:textSize">20sp</item>
+    </style>
+</resources>

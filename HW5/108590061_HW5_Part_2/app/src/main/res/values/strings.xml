@@ -1,0 +1,23 @@
+<resources>
+
+    <string name="app_name">108590061_HW5_Part_2</string>
+    <string name="setting_txt">Settings</string>
+    <string name="change_dessert">Swap or change ordered desserts.</string>
+    <string name="menu_title">Droid Cafe Desserts Menu</string>
+
+    <string name="Donut">This Droid Donut are glazed and sprinkled with candy and chocolate.</string>
+    <string name="Ice_Cream_Sandwich">Our Ice Cream Sandwich are made with chocolate wafers and vanilla filling.</string>
+    <string name="Frozen_Yogurt">Droid Cafe Frozen Yogurt (FroYo) is premium, healthy, gluten-free self-serve frozen yogurt.</string>
+
+    <string name="Order_Donut">Ordered a droid donut.</string>
+    <string name="Order_IceCream">Ordered an ice cream sandwich.</string>
+    <string name="Order_Froyo">Ordered a frozen yogurt (FroYo).</string>
+
+    <string name="Order_Donut_show">Ordered a droid donut.</string>
+    <string name="Order_IceCream_show">Ordered an ice cream sandwich.</string>
+    <string name="Order_Froyo_show">Ordered a frozen yogurt (FroYo).</string>
+
+    <string name="your_Odr">Your order : </string>
+    <string name="droid_cafe_checkout_order">Droid Cafe Checkout Order</string>
+
+</resources>

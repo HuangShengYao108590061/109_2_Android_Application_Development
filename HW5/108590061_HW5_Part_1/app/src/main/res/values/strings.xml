@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <string name="app_name">108590061_HW5_Part_1</string>
+    <string name="inpfirst">Input the first operand </string>
+    <string name="inpsec">Input the second operand </string>
+    <string name="errormsg">Error</string>
+    <string name="addition">Add</string>
+    <string name="subtraction">Subtract</string>
+    <string name="division">Division</string>
+    <string name="multiplication">Multiply</string>
+    <string name="powerof">Power(Pow)</string>
+    <string name="the_result_is">The result is :</string>
+    <string name="first_operand">First operand :</string>
+    <string name="second_operand">Second operand :</string>
+    <string name="simple_calculator">SIMPLE CALCULATOR</string>
+    <string name="by_108590061_hw5_part_1">by 108590061 (HW5 Part 1)</string>
+    <string name="operator_button">Operator button :</string>
+
+</resources>
