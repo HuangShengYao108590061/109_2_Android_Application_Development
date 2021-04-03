@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">108590061_HW6_Part_2</string>
+    <string name="setting_txt">Settings</string>
+    <string name="menu_title">Droid Cafe Desserts Menu</string>
+
+    <string name="Donut">This Droid Donut are glazed and sprinkled with candy and chocolate.</string>
+    <string name="Ice_Cream_Sandwich">Our Ice Cream Sandwich are made with chocolate wafers and vanilla filling.</string>
+    <string name="Frozen_Yogurt">Droid Cafe Frozen Yogurt (FroYo) is premium, healthy, gluten-free self-serve frozen yogurt.</string>
+
+    <string name="Order_Donut">Ordered a droid donut.</string>
+    <string name="Order_IceCream">Ordered an ice cream sandwich.</string>
+    <string name="Order_Froyo">Ordered a frozen yogurt (FroYo).</string>
+
+    <string name="change_dessert">Swap or change ordered desserts.</string>
+
+    <string name="your_orders">Your order will be shown here:</string>
+
+    <string name="the_name">Name :</string>
+    <string name="inp_name">Please enter recipient name here</string>
+
+    <string name="the_address">Address :</string>
+    <string name="inp_address">Please enter recipient address here</string>
+
+    <string name="the_telephone">Phone :</string>
+    <string name="inp_telephone_num">Please enter recipient telephone here</string>
+
+    <string name="the_note">Note:</string>
+    <string name="inp_note">Please enter additional notes here</string>
+
+    <string name="choose_delivery_method">Please select a delivery method:</string>
+    <string name="self_pick_up_method">Self Pick-up </string>
+    <string name="next_day_delivery_by_ground_method">Next day delivery by ground</string>
+    <string name="same_day_courier_messenger_service_method">Same-day courier messenger service </string>
+
+    <string name="selected_self_pick_up">You selected: Self pick-up </string>
+    <string name="selected_next_day_delivery_by_ground">You selected: Next day delivery by ground</string>
+    <string name="selected_same_day_courier_messenger_service">You selected: Same-day courier messenger service </string>
+
+    <string name="date_btn">Date</string>
+
+    <string name="action_contact">Contact</string>
+    <string name="action_order">Order</string>
+    <string name="action_status">Status</string>
+    <string name="action_favorites">Favorites</string>
+
+    <string name="msg_order">Selected Order.</string>
+    <string name="msg_contact">Selected Contact.</string>
+    <string name="msg_stat">Selected Status.</string>
+    <string name="msg_fav">Selected Favorites.</string>
+
+    <string name="pick_the_date">Pick a date</string>
+    <string name="select_date_delivery">Please select the date:</string>
+
+</resources>
