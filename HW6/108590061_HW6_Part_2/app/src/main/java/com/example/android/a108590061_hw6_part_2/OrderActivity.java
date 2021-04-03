@@ -37,7 +37,7 @@ public class OrderActivity extends AppCompatActivity {
         String year_string = Integer.toString(year);
         String month_string = Integer.toString(month + 1);
         String day_string = Integer.toString(dayOfMonth);
-        String date_message = "You selected the date: " + day_string + "/" + month_string + "/" + year_string;
+        String date_message = "You selected the date: " +  month_string + "/" + day_string + "/" + year_string;
         Toast.makeText(getApplicationContext(),date_message,Toast.LENGTH_SHORT).show();
     }
 
@@ -69,8 +69,8 @@ public class OrderActivity extends AppCompatActivity {
             default:
                 break;
         }
+
     }
 
-
-
 }
+

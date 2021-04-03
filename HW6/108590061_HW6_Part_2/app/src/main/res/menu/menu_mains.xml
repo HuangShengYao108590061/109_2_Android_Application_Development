@@ -1,18 +1,22 @@
-<menu xmlns:android="http://schemas.android.com/apk/res/android"
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="com.example.android.a108590061_hw6_part_2.MainActivity">
-    <item
-        android:id="@+id/action_contact"
-        android:orderInCategory="100"
-        android:title="@string/action_contact"
-        app:showAsAction="never" />
+
     <item
         android:id="@+id/action_order"
         android:icon="@drawable/ic_shopping_cart"
         android:orderInCategory="10"
         android:title="@string/action_order"
         app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_contact"
+        android:orderInCategory="100"
+        android:title="@string/action_contact"
+        app:showAsAction="never" />
+
     <item
         android:id="@+id/action_status"
         android:icon="@drawable/ic_status_info"

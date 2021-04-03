@@ -1,7 +1,9 @@
 <resources>
+
     <string name="app_name">108590061_HW6_Part_2</string>
     <string name="setting_txt">Settings</string>
     <string name="menu_title">Droid Cafe Desserts Menu</string>
+    <string name="order_checkout">Order Checkout Page</string>
 
     <string name="Donut">This Droid Donut are glazed and sprinkled with candy and chocolate.</string>
     <string name="Ice_Cream_Sandwich">Our Ice Cream Sandwich are made with chocolate wafers and vanilla filling.</string>

@@ -1,15 +1,15 @@
 package com.example.android.a108590061_hw6_part_2;
 
 import android.content.Intent;
-import android.os.Bundle;
+import android.view.MenuInflater;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
-import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Toast;
+import android.os.Bundle;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -62,7 +62,6 @@ public class MainActivity extends AppCompatActivity {
         displayToast(Odr_txt);
     }
 
-
     public void showFroyoOrder(View view) {
         Odr_txt = getString(R.string.Order_Froyo);
         displayToast(Odr_txt);
@@ -107,7 +106,7 @@ public class MainActivity extends AppCompatActivity {
         }
 
         return super.onOptionsItemSelected(selected_items);
-    }
 
+    }
 
 }
