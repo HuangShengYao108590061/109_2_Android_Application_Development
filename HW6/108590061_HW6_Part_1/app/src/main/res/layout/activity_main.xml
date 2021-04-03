@@ -67,7 +67,7 @@
         android:layout_marginLeft="65dp"
         android:layout_marginTop="12dp"
         android:fontFamily="sans-serif-black"
-        android:text="@string/orio_cookie_crumbles_checkbox"
+        android:text="@string/oreo_cookie_crumbles_checkbox"
         android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Cherries" />
@@ -83,10 +83,10 @@
         app:backgroundTint="#CF9608"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.257"
+        app:layout_constraintHorizontal_bias="0.325"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Orio_Cookie_Crumbles"
-        app:layout_constraintVertical_bias="0.187" />
+        app:layout_constraintVertical_bias="0.256" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

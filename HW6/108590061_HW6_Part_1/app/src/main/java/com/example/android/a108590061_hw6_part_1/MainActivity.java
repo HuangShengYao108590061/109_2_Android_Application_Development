@@ -10,7 +10,7 @@ import android.os.Bundle;
 public class MainActivity extends AppCompatActivity {
 
     private String blank_space = " " ;
-    private String topping_msg = "Topping: " ;
+    private String topping_msg = "You selected the topping: " ;
 
 
     @Override
@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
         choose_option_checkbox((CheckBox) findViewById(R.id.Sprinkles),"Sprinkles ");
         choose_option_checkbox((CheckBox) findViewById(R.id.Crushed_nuts),"Crushed Nuts ");
         choose_option_checkbox((CheckBox) findViewById(R.id.Cherries),"Cherries ");
-        choose_option_checkbox((CheckBox) findViewById(R.id.Orio_Cookie_Crumbles),"Orio Cookie Crumbles ");
+        choose_option_checkbox((CheckBox) findViewById(R.id.Orio_Cookie_Crumbles),"Oreo Cookie Crumbles ");
 
         Toast.makeText(this, topping_msg, Toast.LENGTH_SHORT).show();
     }
