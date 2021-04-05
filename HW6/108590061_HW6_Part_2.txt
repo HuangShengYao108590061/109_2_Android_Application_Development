@@ -1,4 +1,3 @@
-HW 6 Part 2
 Question 1
 
 What is the name of the file in which you create options menu items? Choose one:
