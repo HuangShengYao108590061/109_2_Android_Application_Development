@@ -1,0 +1,356 @@
+<resources>
+
+    <string name="app_name">108590061_HW7_Part_2</string>
+    <string name="the_recipe_info_page_title">Recipe Information</string>
+
+    <string name="app_info_title">Fine and Luxury Dining Recipes</string>
+    <string name="settings_txt">Selected Settings</string>
+    <string name="faq_txt">Selected Frequent Ask Question (FAQ)</string>
+    <string name="about_txt">An app with information about selected dish recipe for fine dining taste. </string>
+
+    <string name="settings_menu">Settings</string>
+    <string name="faq_menu">FAQ</string>
+    <string name="about_menu">About</string>
+
+    <string name="title_dish_recipe_one">New York Strip Steak with Truffle Butter</string>
+    <string name="title_dish_recipe_two">Chicken rice casserole</string>
+    <string name="title_dish_recipe_three">A Slow Braise of Beef Cheeks à la Lyonnais</string>
+    <string name="title_dish_recipe_four">Frittata with Scallions, Watercress and Tarragon</string>
+    <string name="title_dish_recipe_five">Grilled Cod with Fennel and Brussels Sprouts</string>
+    <string name="title_dish_recipe_six">Fennel and Potato Gratin with Camembert</string>
+    <string name="title_dish_recipe_seven">Monkfish Fillet with Duck Breasts and Green Beans</string>
+
+    <string name="recipe_info_one">
+        Tender New York strip steak over mashed potatoes and roasted asparagus for you to dollop all of that deliciousness on.
+        Even the creamy potatoes, roasted asparagus,and demi-glace pan sauce that
+        come with it seem to elevate things with their richness. </string>
+    <string name="recipe_info_two">Chicken Rice Casserole has juicy chicken breasts and
+        tender rice in a deliciously creamy sauce.
+        This is a casserole that meal packs a lot of flavor in a filling
+        one dish dinner and a meal that everyone will love!</string>
+    <string name="recipe_info_three">One of the most flavorful cuts of beef,
+        the cheek is a cut that needs time and patience to bring out the best of its rich,
+        gelatinous qualities.</string>
+    <string name="recipe_info_four">An Italian omelette made with eggs, spring onions,
+        watercress and tarragon.</string>
+    <string name="recipe_info_five">Grilled cod served with grilled fennel and brussels sprouts
+        suitable for a gourmet main course ideal for lunch or dinner.</string>
+    <string name="recipe_info_six">An easy and quick recipe for fennel and potato gratin with
+        French Camembert cheese, perfect for a fancy weeknight meal. </string>
+    <string name="recipe_info_seven">A classy main course consist of roasted
+        monkfish fillet coated with thinly sliced duck breasts, green beans and mushrooms.</string>
+
+    <string name="info_dish_recipe_titles_one">New York Strip Steak with Truffle Butter</string>
+    <string name="info_dish_recipe_titles_two">Chicken rice casserole</string>
+    <string name="info_dish_recipe_titles_three">A Slow Braise of Beef Cheeks a la Lyonnais</string>
+    <string name="info_dish_recipe_titles_four">Frittata with Scallions, Watercress and Tarragon</string>
+    <string name="info_dish_recipe_titles_five">Grilled Cod with Fennel and Brussels Sprouts</string>
+    <string name="info_dish_recipe_titles_six">Fennel and Potato Gratin with Camembert</string>
+    <string name="info_dish_recipe_titles_seven">Monkfish Fillet with Duck Breasts and Green Beans</string>
+
+    <string name="dish_one_quote">Boneless steak that cooks evenly and quickly with a great beef flavor and nice chew.</string>
+    <string name="dish_two_quote">The perfect comfort food for a fast weeknight meal or Sunday dinner.</string>
+    <string name="dish_three_quote">Incredible flavor and texture and fulfills deepest desires of a flavorful meat dish.</string>
+    <string name="dish_four_quote">Egg-bake filled with delicious vegetables, herbs, and a bit of cheese for breakfast or quick weeknight dinner option.</string>
+    <string name="dish_five_quote">Grilled cod that is subtly smoky, lightly crisp on the outside, and meltingly tender on the inside.</string>
+    <string name="dish_six_quote">One of the most comforting dishes for a fancy dinner.</string>
+    <string name="dish_seven_quote">Sweet and mild flavour with firm flesh and almost meaty in texture making it a popular choice on menus.</string>
+
+    <string name ="cook_time_dish_one">Total cook time: 0 hour(s) 40 minute(s)</string>
+    <string name ="cook_time_dish_two">Total cook time: 0 hour(s) 35 minute(s)</string>
+    <string name ="cook_time_dish_three">Total cook time: 3 hour(s) 20 minute(s)</string>
+    <string name ="cook_time_dish_four">Total cook time: 0 hour(s) 30 minute(s)</string>
+    <string name ="cook_time_dish_five">Total cook time: 0 hour(s) 40 minute(s)</string>
+    <string name ="cook_time_dish_six">Total cook time: 1 hour(s) 10 minute(s)</string>
+    <string name ="cook_time_dish_seven">Total cook time: 1 hour(s) 0 minute(s)</string>
+
+    <string name="dish_ingredients">Ingredients:</string>
+
+    <string name ="dish_one_cook_info">
+        Shallot - 1 Unit\n
+        Yukon Gold Potatoes - 16 ounce\n
+        Milk - 6.75 ounce\n
+        Truffle zest - 0.07\n
+        Beef Demi-Glace - 1 Unit\n
+        Asparagus - 8 Ounce\n
+        Parsley - 1/4 ounce\n
+        Thyme - 1/4 ounce\n
+        New York Strip Steak - 12 ounce\n
+        Vegetable Oil -  1 tablespoon\n
+        Butter - 3 tablespoon\n
+        Salt\n
+        Black Pepper
+    </string>
+
+    <string name ="dish_two_cook_info">
+        6 boneless skinless chicken breast halves (453-680kg)\n
+        1 tablespoon canola oil\n
+        3/4 cup chopped sweet red pepper\n
+        3/4 cup chopped green pepper\n
+        1/2 cup chopped onion\n
+        1/2 cup chopped fresh mushrooms\n
+        1 garlic clove, minced\n
+        2 cups uncooked SunRice brown rice\n
+        2 cups chicken broth\n
+        1 1/2 cups frozen corn, thawed\n
+        1/4 teaspoon salt\n
+        1/8 teaspoon pepper\n
+        1/4 cup slivered almonds, toasted\n
+        2 tablespoons minced parsley
+    </string>
+
+    <string name ="dish_three_cook_info">
+
+        2 whole beef cheeks, approximately 1.2 kilos, or 2.5 pounds\n
+        8 medium carrots, approx. 800 grams or 1.5 pounds\n
+        Garniture aromatique:\n
+            – 2 carrots, medium, 200 grams\n
+            – 1 onion, medium, 200 grams\n
+            – 3 shallots, medium, 50 grams\n
+            – 1 bouquet garni: sprigs of parsley, bay and thyme tied in a bundle\n
+        15 grams or 1 tablespoon duck fat or neutral oil, grape seed oil is fine\n
+        15 grams or 1 tablespoon butter\n
+        250 ml or a cup of dry white wine\n
+        250 ml or a cup of water\n
+        10 grams or a teaspoon of sugar\n
+        salt and pepper, to season\n
+        chervil or parsley, leaves and small sprigs, for plating
+
+
+    </string>
+
+    <string name ="dish_four_cook_info">
+        Olive Oil - 2 tbsp\n
+        Onion - 1 large, finely chopped\n
+        Garlic - 1 clove, minced\n
+        Eggs - 8 large, beaten\n
+        Milk - 150 ml\n
+        Scallion - 4, diced\n
+        Tarragon - 2 tbsp, chopped\n
+        Watercress - 100 g\n
+        Salt\n
+        Pepper
+
+    </string>
+
+    <string name ="dish_five_cook_info">
+        Brussels Sprouts - 500 g\n
+        Fennels - 2 bulbs\n
+        Onion - 1 red, small, finely chopped\n
+        Garlic - 1 clove, finely chopped\n
+        Breadcrumbs - 50 g\n
+        Mozzarella Cheese - 50 g, grated\n
+        Cod - 4 thick fillets, skinned and pin-boned\n
+        Olive Oil\n
+        Thyme\n
+        Salt\n
+        Black pepper
+
+    </string>
+
+    <string name ="dish_six_cook_info">
+        Butter - 2 tbsp, softened\n
+        Potatoes - 1 kg, new, scrubbed and halved\n
+        Fennels - 2 large bulbs, sliced with fronds reserved for a garnish\n
+        Camembert Cheese - 300 g, sliced\n
+        Vegetable Stock - 200 ml, gluten free\n
+        Whipped Cream - 200 ml\n
+        Fennel Seeds - 2 tsp\n
+        Salt
+    </string>
+
+    <string name ="dish_seven_cook_info">
+        Duck - 1 large breast, trimmed, about 450 g\n
+        Monkfish - 4 thin fillets, skinless and pin-boned, about 150 g each\n
+        Olive Oil - 1 tbsp\n
+        Butter - 1 tbsp, unsalted\n
+        Tarragon - 4 sprigs\n
+        Salt\n
+        Black pepper\n
+        Green Beans - 450 g, trimmed\n
+        Butter - 2 tbsp, unsalted\n
+        Mushrooms - 225 g, chanterelle , brushed clean\n
+        Tarragon - 5 sprigs, torn
+    </string>
+
+    <string name="how_to_cook_the_dish">How to cook:</string>
+    <string name ="cook_dish_one">
+        1. Wash and dry all produce. Adjust rack to upper position and preheat oven to 425 degrees.\n
+        Place 2 TBSP butter in a small bowl and set aside. Halve and peel shallot, then mince until you have 2 TBSP.\n
+        Trim woody bottom ends from asparagus. Cut potatoes into ½-inch cubes.\n
+        Pick parsley leaves from stems; discard stems. Finely chop leaves.\n
+        2.Place potatoes in a medium pot with enough salted water to cover by 1 inch.\n
+        Bring to a boil and cook until tender, about 12 minutes. Meanwhile, place milk and 1 thyme sprig in a small pot.\n
+        Bring to a simmer, then remove from heat.\n
+        Once potatoes are cooked, drain thoroughly and return to pot. Mash in pot with a potato masher until smooth.\n
+        3.Melt another 1 TBSP butter in a medium pan over medium heat.\n
+        Add half the minced shallot. Cook, tossing, until just softened, 1-2 minutes.\n
+        Pour shallot and melted butter into small bowl with reserved room-temperature butter.\n
+        Add truffle zest and a pinch of parsley. Mash together with a fork.\n
+        Set aside in freezer to chill for 10 minutes\n
+        4.Heat a drizzle of oil in pan used for shallot over medium-high heat. Pat steak dry with a paper towel.\n
+        Season with salt and pepper. Add to pan and cook to desired doneness, 3-6 minutes per side.\n
+        Remove from pan and set aside to rest. Meanwhile, toss asparagus with a drizzle of oil on a baking sheet. Season with salt and pepper.\n
+        Roast in oven until just tender, about 7 minutes.\n
+        5.Wipe out pan after removing steak, then reduce heat under pan to low and heat another drizzle of oil in it.\n
+        Add remaining shallot. Cook, tossing, until starting to soften, 1-2 minutes. Stir in demi-glace and 3 TBSP water.\n
+        Let simmer until slightly thickened, about 2 minutes. Season with salt and pepper.\n
+        Meanwhile, slice steak against the grain.\n
+        Discard thyme sprig from pot with milk.\n
+        6.Stir enough milk into potatoes to create a creamy consistency (start with ¼ cup and add more from there).\n
+        Season with salt and pepper. Divide between plates along with asparagus. Arrange steak on top of potatoes.\n
+        Spoon sauce over steak, then dollop with truffle butter.\n
+        Garnish with remaining parsley.
+    </string>
+
+    <string name ="cook_dish_two">
+        1.In a large pot, brown chicken in oil for 4 minutes on each side. Remove and keep warm.\n
+        2.In the same pot, saute peppers, onion, mushrooms and garlic until tender.\n
+        Stir in the rice, broth, corn, salt and pepper; bring to a boil.\n
+        3.Transfer to a baking dish coated with cooking spray. Top with chicken.\n
+        Cover and bake at 350°C for 20 minutes. Uncover and bake 5 minutes longer or until chicken juices run clear.\n
+        4.Sprinkle with almonds and parsley to serve.
+    </string>
+
+    <string name="cook_dish_three">
+
+        1.Heat the oven to 120C / 300F.\n
+        2.Prepare the garniture aromatique\n
+            - Peel and roughly chop the carrot (cut each carrot into 10 pieces), the onion (cut into 8-10 pieces)\n
+            and shallots (cut each shallot into 6 pieces) and tie the bouquet garni using 2 mild bay leaves ,\n
+            a generous couple of sprigs of parsley, and 6-8 sprigs of fresh thyme.\n
+
+        3.Brown the Beef Cheeks
+            - Heat half of the duck fat or neutral oil in a heavy high sided cooking pot or dutch oven that will\n
+            go into the oven with the lid. Brown the whole beef cheeks on all sides over medium-high heat,\n
+            ensuring that they are well colored. Remove them from the pot.\n
+            - Add the garniture aromatique and wine\n
+            - Discard any remaining fat from the cooking pot, and add the aromatics (the roughly chopped carrot, onion and shallot)\n
+            with a generous pinch of salt. Toss to allow to brown slightly, then add the white wine,\n
+            and stir and scrape the bottom of the pot to allow the wine to release any toasted bits and caramelized meat\n
+            that might remain on the bottom of the pot.\n
+            - Bring the wine and aromatics to a boil. Allow the wine to reduce by half.\n
+            Add the cup of water and the bouquet garni, give it a swirl, bring to a boil, and nestle the beef cheeks into the pot.\n
+
+        4. Braise the Beef Cheeks\n
+            - Cover the pot, place it in the center of the oven, and let the cheeks slowly cook at a low braise for 4 hours.\n
+              Every 30-45 minutes, take the pot out to drizzle the cheeks with the cooking liquid, and turn them over at the halfway mark.\n
+            - While the beef cheeks are braising, cook the carrots.\n
+              To prepare, bring a large pot of water to a boil, and add a tablespoon of salt to it.\n
+              On the counter next to the stove, turn a whole tray of ice into a salad bowl,\n
+              and fill it with enough water to submerge the carrots when they’re done cooking in the boiling salted water.\n
+            - You can make a decision about how you plan to cook the carrots based on what kind you find at the market.\n
+              Wash and peel them. If you have very small carrots, this is a very good opportunity to let them stay whole.\n
+              Otherwise slice larger carrots en biseaux, which means on the diagonal, into 1/2 cm or 1/4 inch medallions.\n
+            - Plunge carrots into the boiling water and once the water begins to boil again, start a timer for 4 minutes.\n
+              At the end of that time, check them. They should have softened considerably, but still be rather firm. You will cook them again.\n
+            - Remove them from the cooking water and place them directly into the salad bowl of iced water, which will stop the cooking process.\n
+              Remove them from the cold bath, and pat dry in a clean towel. \n
+              They can be reserved from here, covered with the damp towel, until the cheeks have finished their braising.\n
+            - When the cheeks cooked for a full 3 hours rendering them tender, juicy, gelatinous and easily sliced,\n
+              delicately remove them from the cooking pot to a plate, keeping warm in the oven where they cooked (covered with foil, oven turned off). \n
+              Remove the bouquet garni from the pot, and all but a couple of tablespoons of the aromatics. \n
+              Purée the remaining liquid with the cooked aromatics until it is a smooth, thick, glistening sauce. \n
+              Taste the sauce and add salt and pepper as desired. \n
+              It will be concentrated in flavor enough to thin it out with a little bit of water if you need to.\n
+            - Put the beef cheeks back into the pot, turning them over once or twice in the process to cover with the rich sauce,\n
+              then bring this to a simmer on the cook top. Immediately reduce the heat to low, cover, and keep warm on the lowest possible heat setting.\n
+
+        5. Finish the carrots\n
+            - Heat up the remaining duck fat in a wide saute or skillet, and toss the carrots in the hot fat with the sugar (optional) until\n
+              slightly caramelized, glistening and golden.\n
+            - Add the remaining butter for flavor and to give them a sheen,\n
+              and sprinkle them generously with salt and pepper.\n
+            - Off heat and just before serving,\n
+              toss the glazed carrots with finely chopped chervil and parsley leaves.\n
+
+        6. To dress the plate\n
+            - Heat the plates and be generous with the sauce.\n
+            - Begin with a large spoonful or two of sauce on the plate or in a wide mouthed bowl for a more rustic effect.\n
+            - Slice the beef cheeks in half. Place a half beef cheek in the center of the sauce, and drizzle more sauce onto the meat.\n
+              Surround the meat harmoniously with carrots, and garnish with chervil or parsley.\n
+
+        7. Serve immediately.
+    </string>
+
+    <string name="cook_dish_four">
+
+        1.Preheat the oven to 180°C (160° fan) gas 4.\n
+        2.Heat the oil in a cast-iron pan set over a medium heat until hot.\n
+        3.Add the onion, garlic, and a pinch of salt, and sweat for 5-6 minutes until softened.\n
+        4.Stir together the beaten egg and milk in a jug or bowl. Add to the pan, stir briefly, and leave to set over a low heat for 2 minutes.\n
+        5.Sprinkle over the spring onions and tarragon, and then arrange the watercress on top, pressing down gently.\n
+        6.Season generously with salt and pepper.\n
+        7.Bake in the oven for 8-10 minutes until set. Remove from the oven and leave to stand briefly.\n
+        8.Preheat the grill to hot.\n
+        9.Flash the frittata under the grill for 30-40 seconds to glaze the top before serving.
+
+
+    </string>
+
+    <string name="cook_dish_five">
+        1.Parboil the Brussel sprouts in a large saucepan of salted, boiling water until just tender to the tip of a knife, 8-10 minutes. Drain well.\n
+        2.Cut the fennel bulbs lengthwise into 1.25 cm | 0.5" thick slices. Reserve the fronds for a garnish.\n
+        3.Preheat the grill to hot.\n
+        4.Stir together the red onion, garlic, breadcrumbs, and mozzarella with some salt and pepper to taste in a small mixing bowl.\n
+        5.Arrange the cod on a grilling tray and pack the breadcrumb mixture onto the fillets.\n
+        6.Drizzle with olive oil and season with salt and pepper.\n
+        7.Arrange the Brussels sprouts and fennel slices on a separate grilling tray.\n
+        8.Drizzle with some olive oil, turn to coat, and season to taste with salt and pepper.\n
+        9.Grill the cod for 6-8 minutes until firm to the touch and opaque; the topping should be golden-brown.\n
+        10.Remove from the grill and keep warm, covered with aluminium foil.\n
+        11.Grill the sprouts and fennel until golden-brown, turning occasionally, 6-8 minutes as well.\n
+        12.Remove from the grill and serve alongside the grilled cod.\n
+        13.Garnish with fennel and thyme sprigs.
+
+    </string>
+
+    <string name="cook_dish_six">
+        1.Preheat the oven to 180°C (160° fan)  gas 4.\n
+        2.Grease a 23 cm | 9" round baking dish with 1 tbsp butter.\n
+        3.Parboil the potatoes in a large saucepan of salted, boiling water until just tender to the tip of a knife, 10-12 minutes.\n
+        4.Add the fennel to the water, remove from the heat, and let stand for 1 minute before draining.\n
+        5.Arrange the potatoes and fennel in the baking dish.\n
+        6.Top with the Camembert before pouring over the stock and cream.\n
+        7.Dot with the remaining butter and sprinkle over the fennel seeds.\n
+        8.Season generously with salt and pepper.\n
+        9.Bake for 30-40 minutes until the Camembert is melted and bubbling.\n
+        10.Remove the fennel and potato gratin from the heat and let stand for at least 5 minutes before serving with a garnish of fennel fronds.
+
+    </string>
+
+    <string name="cook_dish_seven">
+        1. For duck breasts and the monkfish fillet\n
+            - Score a criss-cross pattern into the skin and fat of the duck breast using the tip of a sharp knife.\n
+            - Season generously with salt and pepper and place skin-side down in a cold frying pan.\n
+            - Place the pan over a medium-low heat, leaving the fat to render from the breast, about 8 minutes.\n
+            - Flip the breast and cook for a further 8-10 minutes, basting with the rendered fat from time to time,\n
+              until the breast is firm yet springy when pressed.\n
+            - Remove the duck from the pan and leave to drain on kitchen paper, covered loosely with aluminium foil.\n
+            - Season the monkfish fillets with salt and pepper.\n
+            - Wipe clean the pan used to cook the duck with kitchen paper. Set the pan over a medium heat and add the olive oil and butter.\n
+            - Once the butter stops foaming, carefully place the monkfish fillets in the pan and leave them to cook undisturbed for 4-5 minutes\n
+              until the flesh is firm yet springy when pressed, turning once.\n
+            - Remove from the pan to a plate lined with kitchen paper.\n
+            - Cover loosely with aluminium foil.\n
+
+        2. For green beans salad\n
+            - Blanch the green beans in a large saucepan of salted, boiling water for 2 minutes.\n
+            - Drain well and refresh in iced water.\n
+            - Drain again and chop into small pieces.\n
+            - Warm the butter in a large saute pan set over a moderate heat. Add the mushrooms and seasoning,\n
+              and saute for 4-5 minutes until golden and soft.\n
+            - Add the chopped beans and toss well to mix. Cook for a further 2-3 minutes until thoroughly warmed through.\n
+            - Adjust the seasoning to taste and add the torn tarragon sprigs, tossing again to incorporate.\n
+
+        3. For Monkfish Fillet with Duck Breasts and Green Beans\n
+            - Slice the duck breasts into small pieces.\n
+            - Arrange some of the duck in rows on top of the monkfish fillets and top with a tarragon sprig; set the remaining duck to one side.\n
+            - Tie the duck and tarragon to the fish, at intervals, with kitchen string.\n
+            - If desired, reheat the monkfish in a pan set over a low heat, covered with a lid, for 2 minutes.\n
+            - Spoon the green beans salad onto plates and top with the remaining duck and then the monkfish before serving.
+
+    </string>
+
+</resources>
+

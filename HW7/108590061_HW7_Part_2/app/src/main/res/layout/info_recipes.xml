@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#AFD1F3">
+
+    <TextView
+        android:id="@+id/bg_views"
+        android:layout_width="334dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="52dp"
+        android:background="#727ACFEF"
+        android:textColor="#00FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/recipe_dish_picture"
+        android:layout_width="258dp"
+        android:layout_height="200dp"
+        app:layout_constraintBottom_toBottomOf="@+id/bg_views"
+        app:layout_constraintEnd_toEndOf="@+id/bg_views"
+        app:layout_constraintStart_toStartOf="@+id/bg_views"
+        app:layout_constraintTop_toTopOf="@+id/bg_views"
+        app:layout_constraintVertical_bias="0.53" />
+
+    <TextView
+        android:id="@+id/recipe_infos"
+        android:layout_width="346dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:textAllCaps="false"
+        android:textColor="#101010"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bg_views" />
+
+    <TextView
+        android:id="@+id/dish_recipe_info_titles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/bg_views"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="415dp"
+        android:layout_height="210dp"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/recipe_infos"
+        app:layout_constraintVertical_bias="1.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/cook_time_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                app:fontFamily="serif" />
+
+            <TextView
+                android:id="@+id/recipe_ingredients"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/dish_ingredients"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                app:fontFamily="serif" />
+
+            <TextView
+                android:id="@+id/ingredients_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/how_to_cook_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/how_to_cook_the_dish"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:typeface="normal"
+                app:fontFamily="serif" />
+
+            <TextView
+                android:id="@+id/how_to_cook_the_dish_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000" />
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

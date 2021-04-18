@@ -1,0 +1,63 @@
+
+<resources>
+
+    <string name="app_name">108590061_HW7_Part_1</string>
+    <string name="settings_menu">Settings</string>
+    <string name="faq_menu">FAQ</string>
+    <string name="about_menu">About</string>
+
+    <string name="settings_txt">Selected Settings</string>
+    <string name="faq_txt">Selected Frequent Ask Question (FAQ)</string>
+    <string name="about_txt">Droid Cafe desserts is made from fresh, carefully selected and high quality ingredients. </string>
+
+    <string name="droid_cafe_donut">Droid Donut</string>
+    <string name="droid_cafe_ice_cream_sandwich">Ice Cream Sandwich</string>
+    <string name="droid_cafe_frozen_yogurt">Frozen Yogurt (FroYo)</string>
+    <string name="info_droid_cafe_donut">About our Droid Donut</string>
+    <string name="info_droid_cafe_ice_cream_sandwich">About our Ice Cream Sandwich</string>
+    <string name="info_droid_cafe_frozen_yogurt">About our Frozen Yogurt (FroYo)</string>
+
+
+    <string name="droid_donut_desc">
+        Our Droid Donut is made with high-quality flour and carefully selected ingredients ,
+        glazed with candies and rainbow chocolate,
+        makes you fall in love with it every time you take a bite of our Droid Donut.
+    </string>
+
+    <string name="ice_cream_sandwich_desc">
+        Droid Cafe special Ice Cream Sandwich is made from Ben and Jerry ice cream
+        placed between our handmade sandwich bread.
+    </string>
+    <string name="frozen_yogurt_desc">
+        Our Droid Cafe Frozen Yogurt is healthy and gluten-free , our Frozen Yogurt is natural fermented
+        which gave its soft texture and characteristic tart flavor.
+    </string>
+
+    <string name="bvr_select">Select a free beverage:</string>
+    <string name="select_coffee">Coffee</string>
+    <string name="select_c_tea">Cinnamon Tea</string>
+    <string name="selects_c">Selected: Coffee</string>
+    <string name="selects_cinnamon_tea">Selected: Cinnamon Tea</string>
+
+    <string name="size_select">Select an Ice Cream Sandwich size :</string>
+    <string name="normal_sz">Normal Size </string>
+    <string name="up_l">Large Size (Larger bread and extra ice cream)</string>
+    <string name="up_xl">Xtra Large Size (Half textbook-size bread , extra ice cream and chocolate sprinkles toppings)</string>
+    <string name="select_n_s">Selected: Normal size</string>
+    <string name="select_n_ls">Selected: Large size</string>
+    <string name="select_n_xls">Selected: Xtra large size</string>
+
+    <string name="extra_select">Select the yogurt size :</string>
+    <string name="normal_yogurt">Normal size </string>
+    <string name="up_size_yogurt">Up Size (adds an extra cup of yogurt)</string>
+    <string name="select_n_y">Selected: Normal size</string>
+    <string name="select_u_s_y">Selected: Up Size</string>
+
+
+
+    <string name="title_main_content">Droid Cafe Desserts</string>
+    <string name="change_dessert">Change dessert</string>
+    <string name="option_title">Please select the desserts below</string>
+    <string name="email_us">Any questions? Email us below</string>
+    <string name="email_btn_below">Email Us</string>
+</resources>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5AB7EA"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:layout_editor_absoluteY="81dp"
+    tools:showIn="@layout/activity_main">
+
+
+    <TextView
+        android:id="@+id/content_main_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/title_main_content"
+        android:textColor="#000000"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:fontFamily="casual"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <android.support.v7.widget.GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="391dp"
+        android:layout_height="125dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/content_main_title"
+        app:layout_constraintVertical_bias="0.406">
+
+        <ImageView
+            android:id="@+id/the_donut"
+            android:layout_width="130dp"
+            android:layout_height="120dp"
+            android:contentDescription="@string/droid_cafe_donut"
+            android:onClick="DessertPicturesClicked"
+            app:layout_column="0"
+            app:layout_row="0"
+            app:srcCompat="@drawable/donut_circle" />
+
+        <ImageView
+            android:id="@+id/the_ice_cream_sandwich"
+            android:layout_width="130dp"
+            android:layout_height="120dp"
+            android:contentDescription="@string/droid_cafe_ice_cream_sandwich"
+            android:onClick="DessertPicturesClicked"
+            app:srcCompat="@drawable/icecream_circle" />
+
+        <ImageView
+            android:id="@+id/the_frozen_yogurt"
+            android:layout_width="130dp"
+            android:layout_height="120dp"
+            android:contentDescription="@string/droid_cafe_frozen_yogurt"
+            android:onClick="DessertPicturesClicked"
+            app:layout_column="2"
+            app:layout_row="0"
+            app:srcCompat="@drawable/froyo_circle" />
+    </android.support.v7.widget.GridLayout>
+
+    <TextView
+        android:id="@+id/desserts_opt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        android:text="@string/option_title"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:typeface="sans"
+        app:fontFamily="serif"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/content_main_title" />
+
+    <TextView
+        android:id="@+id/email_to_us"
+        android:layout_width="105dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:text="@string/email_btn_below"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:fontFamily="sans-serif-smallcaps"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gridLayout" />
+</android.support.constraint.ConstraintLayout>

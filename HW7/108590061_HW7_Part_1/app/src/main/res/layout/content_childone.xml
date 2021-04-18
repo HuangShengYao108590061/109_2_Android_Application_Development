@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8CBAE8"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".ChildoneActivity"
+    tools:showIn="@layout/activity_childone">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="190dp"
+        android:layout_height="185dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="90dp"
+        android:layout_marginEnd="8dp"
+        android:contentDescription="@string/droid_cafe_donut"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/donut_circle" />
+
+    <TextView
+        android:id="@+id/droid_donut_titles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:text="@string/droid_cafe_donut"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:typeface="sans"
+        app:fontFamily="serif"
+        app:layout_constraintBottom_toTopOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/droid_donut_txt"
+        android:layout_width="294dp"
+        android:layout_height="146dp"
+        android:layout_marginTop="16dp"
+        android:background="#392DDDEF"
+        android:gravity="center"
+        android:text="@string/droid_donut_desc"
+        android:textAllCaps="false"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display3"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:fontFamily="sans-serif-condensed"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <RadioGroup
+        android:layout_width="290dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/select_beverage">
+
+        <RadioButton
+            android:id="@+id/rd_one"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="DonutBeverageRadioButton"
+            android:text="@string/select_coffee" />
+
+        <RadioButton
+            android:id="@+id/rd_two"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="DonutBeverageRadioButton"
+            android:text="@string/select_c_tea" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/select_beverage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/bvr_select"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.208"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/droid_donut_txt" />
+
+</android.support.constraint.ConstraintLayout>
