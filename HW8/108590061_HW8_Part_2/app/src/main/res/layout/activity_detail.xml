@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context="com.example.android.a108590061_hw8_part_2.DetailActivity">
+
+        <ImageView
+            android:id="@+id/Detail_Sport_Image"
+            android:transitionName="transitionPics"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true" />
+
+        <TextView
+            android:id="@+id/Detail_Title"
+            style="@style/TextAppearance.AppCompat.Headline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/Detail_Sport_Image"
+            android:padding="16dp"
+            android:text="@string/The_main_title"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark" />
+
+        <TextView
+            android:id="@+id/Detail_News_Title"
+            style="@style/TextAppearance.AppCompat.Subhead"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Detail_Sport_Image"
+            android:padding="16dp"
+            android:text="@string/News_title"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/Detail_Subtitle"
+            style="@style/TextAppearance.AppCompat.Subhead"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Detail_News_Title"
+            android:padding="16dp"
+            android:text="@string/txt_subtitle"
+            android:textColor="#000000" />
+
+    </RelativeLayout>
+</ScrollView>
