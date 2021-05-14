@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">108590061_HW10_Part_2</string>
+
+    <string name="protocol_options">Select protocol :</string>
+    <string name="instructions">Please enter the URL:</string>
+    <string name="txt_of_btn">Get Web Page Source Code</string>
+    <string name="hint_of_inp">www.webpage.com</string>
+    <string name="get_webpage_code">Click here to get the web page source code </string>
+    <string name="webpage_src_app">Get The Web Page Source Code App</string>
+
+    <string name="getting_the_source_code">Please wait, getting the page source code.....</string>
+    <string name="no_results">"Sorry, the result is not found. Check the URL you inputted and try again."</string>
+    <string name="no_search_term">Please input your search </string>
+    <string name="network_error">Please check your internet or network connection and try again.</string>
+
+    <string-array name="ProtocolArray">
+        <item>http://</item>
+        <item>https://</item>
+    </string-array>
+
+</resources>

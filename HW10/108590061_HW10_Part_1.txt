@@ -1,0 +1,36 @@
+Question 1
+
+For a ProgressBar:
+
+  How do you determine the range of values that a ProgressBar can show?
+  Answer: 
+	By setting the integer values for the android:min and the android:max attributes 
+	which determine the range of values that a ProgressBar can show.
+  
+  How do you change how much of the progress bar is filled in?
+  Answer: 
+	By setting the integer value for the android:progress attribute
+                   so it change how much of the progress bar is filled in.
+
+Question 2
+
+If an AsyncTask is defined as follows:
+
+ private class DownloadFilesTask extends AsyncTask<URL, Integer, Long>
+
+    What is the type of the value that is passed to doInBackground() in the AsyncTask?
+    Answer: The type is URL
+
+    What is the type of the value that is passed to the callback that reports the progress of the task?
+    Answer: The type is Integer
+
+    What is the type of the value that is passed to the callback that is executed when the task completes?
+    Answer: The type is Long
+
+Question 3
+
+To report progress of the work executed by an AsyncTask, what callback method do you implement, and what method do you call in your AsyncTask subclass?
+Answer:
+
+    Implement onProgressUpdate(). Call publishProgress().
+
