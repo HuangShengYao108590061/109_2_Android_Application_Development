@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">108590061_HW11_Part_2</string>
+
+    <string name="notification_title">You\'ve been notified!</string>
+    <string name="notification_text">This is your notification text.</string>
+    <string name="update">Update Notification</string>
+
+    <string name="notify_me">Notify Me !</string>
+    <string name="update_me">Update Me !</string>
+    <string name="cancel_me">Cancel Me !</string>
+    <string name="notification_updated">This is the title</string>
+
+    <string name="line_first">First line here</string>
+    <string name="line_second">Second line here</string>
+    <string name="line_third">Third line here</string>
+    <string name="line_fourth">Fourth line here</string>
+    <string name="line_last">and finally the last line here</string>
+    <string name="the_summary_line">This is the summary</string>
+
+    <string name="notification_channel_name">Mascot Notification</string>
+    <string name="notification_channel_description">Notification from Mascot</string>
+</resources>
