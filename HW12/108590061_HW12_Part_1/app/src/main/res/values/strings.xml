@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">108590061_HW12_Part_1</string>
+
+    <string name="notif_Title">Hi, please make a wish !</string>
+    <string name="notif_txt">It is 11:11 AM right now </string>
+
+    <string name="alarm_off">Set off</string>
+    <string name="alarm_on">Set on</string>
+
+    <string name="alarm_set_notify">Set notification at 11:11 AM for a wish</string>
+    <string name="alarm_set_txt">Notification of making a wish</string>
+
+    <string name="alarm_set_on">Alarm set on, you will be notified on the time.</string>
+    <string name="alarm_set_off">Alarm set off.</string>
+
+    <string name="press_txt">Please click the button below to set the
+                                notification alarm on or off </string>
+
+</resources>
