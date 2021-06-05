@@ -1,0 +1,21 @@
+Question 1
+
+In which lifecycle method do you save the app state to shared preferences?
+Answer:
+	
+	In onPause()
+
+Question 2
+
+In which lifecycle method do you restore the app state?
+Answer:
+
+	In onCreate()
+
+Question 3
+
+Can you think of a case where it makes sense to have both shared preferences and instance state?
+Answer:
+
+The case is that when we want to uninstall the app from our phone,
+but we wanted the data which is still there or saved when we install the app again.
